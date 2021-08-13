@@ -1,0 +1,49 @@
+.flag {
+  width: 50%;
+}
+.hidden {
+  visibility: hidden;
+}
+.result {
+  margin-top: 2rem;
+}
+.red {
+  color: red;
+}
+.rotate {
+  animation: rotation 2s;
+}
+
+.linear {
+  animation-timing-function: linear;
+}
+
+.infinite {
+  animation-iteration-count: infinite;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+.none {
+  visibility: hidden;
+}
+.cross {
+  cursor: pointer;
+  display: inline-block;
+  margin-left: 2rem;
+}
+.heading {
+  color: cornflowerblue;
+  margin: 2rem;
+}
+.error_message {
+  color: red;
+  animation: bounceIn;
+  animation-duration: 1s;
+}
